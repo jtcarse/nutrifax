@@ -1,0 +1,3 @@
+# Use ChatGPT sign-in for initial AI access
+
+The first personal version uses ChatGPT sign-in as its only AI connection, so it can use the owner's eligible ChatGPT plan without configuring an API key. This deliberately ties import capability to ChatGPT plan eligibility and the [currently documented sign-in flow](https://developers.openai.com/siwc/token-sharing-open-source). The documented callback uses `127.0.0.1`; Android can reach a listener on its own loopback interface when the app and browser run on the same device. Validate the complete sign-in and file-based inference flow on Windows and Android early.
