@@ -1,0 +1,7 @@
+:root { font-family: system-ui, sans-serif; color: #202a27; background: #f4f7f5; }
+body { margin: 0; } #app { max-width: 760px; margin: auto; padding: 1.25rem; }
+section { background: white; border: 1px solid #d9e3dd; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+button { min-height: 44px; padding: .6rem 1rem; border: 0; border-radius: 7px; background: #126548; color: white; font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; } .notice { padding: .8rem; border-left: 4px solid #a56600; background: #fff4db; }
+#error { color: #a12020; font-weight: 600; } pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }
+@media (max-width: 480px) { #app { padding: .75rem; } section { padding: .8rem; } button { width: 100%; } }
